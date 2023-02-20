@@ -4,6 +4,7 @@
 """
 
 import subprocess
+import chardet
 
 args_list = [
     ['ping', 'yandex.ru'],
@@ -13,5 +14,7 @@ args_list = [
 for args in args_list:
     subproc_ping = subprocess.Popen(args, stdout=subprocess.PIPE)
     for line in subproc_ping.stdout:
-        line = line.decode('cp866').encode('utf-8')
+        info = chardet.detect(line)
+        # print(info)
+        line = line.decode(info["encoding"]).encode('utf-8')
         print(line.decode('utf-8'))
