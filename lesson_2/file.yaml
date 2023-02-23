@@ -1,0 +1,9 @@
+items:
+- tower
+- monitor
+- peripherals
+price:
+  monitor: 1500¥
+  peripherals: 500¥
+  tower: 4000¥
+quantity: 2

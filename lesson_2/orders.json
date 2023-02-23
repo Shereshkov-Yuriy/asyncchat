@@ -1,0 +1,25 @@
+{
+    "orders": [
+        {
+            "item": "PC",
+            "quantity": "4",
+            "price": "22000",
+            "buyer": "Romanov G.M.",
+            "date": "04.06.2016"
+        },
+        {
+            "item": "МФУ",
+            "quantity": "6",
+            "price": "8000",
+            "buyer": "Rogov N.V.",
+            "date": "08.08.2018"
+        },
+        {
+            "item": "printer",
+            "quantity": "10",
+            "price": "10000",
+            "buyer": "Иванов И.И.",
+            "date": "14.04.2017"
+        }
+    ]
+}
