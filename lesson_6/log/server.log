@@ -1,0 +1,35 @@
+2023-03-11 17:56:25,431  :: INFO       :: server               -- Установлено соединение с клиентом: ('127.0.0.1', 12542)
+2023-03-11 17:56:25,440  :: DEBUG      :: server               -- Получено сообщение: {'action': 'presence', 'time': 1678546585.4318209, 'user': {'account_name': 'User'}}
+2023-03-11 17:56:25,441  :: DEBUG      :: server               -- Разбор сообщения от клиента: {'action': 'presence', 'time': 1678546585.4318209, 'user': {'account_name': 'User'}}
+2023-03-11 17:56:25,441  :: INFO       :: server               -- Создан ответ клиенту: {'response': 200}
+2023-03-11 18:19:40,020  :: DEBUG      :: server               -- Start App.
+2023-03-11 18:19:40,020  :: INFO       :: server               -- Запуск сервера по адресу: , порт: 7777.
+2023-03-11 18:19:53,409  :: INFO       :: server               -- Установлено соединение с клиентом: ('127.0.0.1', 9008)
+2023-03-11 18:19:53,426  :: DEBUG      :: server               -- Получено сообщение: {'action': 'presence', 'time': 1678547993.4092708, 'user': {'account_name': 'User'}}
+2023-03-11 18:19:53,426  :: DEBUG      :: server               -- Разбор сообщения от клиента: {'action': 'presence', 'time': 1678547993.4092708, 'user': {'account_name': 'User'}}
+2023-03-11 18:19:53,427  :: INFO       :: server               -- Создан ответ клиенту: {'response': 200}
+2023-03-11 18:31:31,704  :: DEBUG      :: server               -- Start App.
+2023-03-11 18:31:31,704  :: INFO       :: server               -- Запуск сервера по адресу: , порт: 7777.
+2023-03-11 18:31:41,121  :: INFO       :: server               -- Установлено соединение с клиентом: ('127.0.0.1', 10085)
+2023-03-11 18:31:41,139  :: DEBUG      :: decorators           -- Обращение к функции get_message ((<socket.socket fd=196, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 10085)>,), {}). Вызов из функции main.
+2023-03-11 18:31:41,139  :: DEBUG      :: server               -- Получено сообщение: {'action': 'presence', 'time': 1678548701.1219814, 'user': {'account_name': 'User'}}
+2023-03-11 18:31:41,139  :: DEBUG      :: server               -- Разбор сообщения от клиента: {'action': 'presence', 'time': 1678548701.1219814, 'user': {'account_name': 'User'}}
+2023-03-11 18:31:41,139  :: DEBUG      :: decorators           -- Обращение к функции parse_client_response (({'action': 'presence', 'time': 1678548701.1219814, 'user': {'account_name': 'User'}},), {}). Вызов из функции main.
+2023-03-11 18:31:41,139  :: INFO       :: server               -- Создан ответ клиенту: {'response': 200}
+2023-03-11 18:31:41,140  :: DEBUG      :: decorators           -- Обращение к функции send_message ((<socket.socket fd=196, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 10085)>, {'response': 200}), {}). Вызов из функции main.
+2023-03-11 18:32:45,637  :: INFO       :: server               -- Установлено соединение с клиентом: ('127.0.0.1', 10154)
+2023-03-11 18:32:45,646  :: DEBUG      :: decorators           -- Обращение к функции get_message ((<socket.socket fd=164, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 10154)>,), {}). Вызов из функции main.
+2023-03-11 18:32:45,646  :: DEBUG      :: server               -- Получено сообщение: {'action': 'presence', 'time': 1678548765.6360757, 'user': {'account_name': 'User'}}
+2023-03-11 18:32:45,646  :: DEBUG      :: server               -- Разбор сообщения от клиента: {'action': 'presence', 'time': 1678548765.6360757, 'user': {'account_name': 'User'}}
+2023-03-11 18:32:45,646  :: DEBUG      :: decorators           -- Обращение к функции parse_client_response (({'action': 'presence', 'time': 1678548765.6360757, 'user': {'account_name': 'User'}},), {}). Вызов из функции main.
+2023-03-11 18:32:45,646  :: INFO       :: server               -- Создан ответ клиенту: {'response': 200}
+2023-03-11 18:32:45,647  :: DEBUG      :: decorators           -- Обращение к функции send_message ((<socket.socket fd=164, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 10154)>, {'response': 200}), {}). Вызов из функции main.
+2023-03-11 19:05:03,449  :: DEBUG      :: server               -- Start App.
+2023-03-11 19:05:03,449  :: INFO       :: server               -- Запуск сервера по адресу: , порт: 7777.
+2023-03-11 19:05:14,513  :: INFO       :: server               -- Установлено соединение с клиентом: ('127.0.0.1', 13710)
+2023-03-11 19:05:14,529  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=272, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 13710)>,), {}). Вызов из функции main.
+2023-03-11 19:05:14,529  :: DEBUG      :: server               -- Получено сообщение: {'action': 'presence', 'time': 1678550714.5133867, 'user': {'account_name': 'User'}}
+2023-03-11 19:05:14,529  :: DEBUG      :: server               -- Разбор сообщения от клиента: {'action': 'presence', 'time': 1678550714.5133867, 'user': {'account_name': 'User'}}
+2023-03-11 19:05:14,529  :: DEBUG      :: decorators           -- Обращение к функции parse_client_response с параметрами: (({'action': 'presence', 'time': 1678550714.5133867, 'user': {'account_name': 'User'}},), {}). Вызов из функции main.
+2023-03-11 19:05:14,529  :: INFO       :: server               -- Создан ответ клиенту: {'response': 200}
+2023-03-11 19:05:14,529  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=272, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 13710)>, {'response': 200}), {}). Вызов из функции main.
