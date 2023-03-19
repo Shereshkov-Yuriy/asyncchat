@@ -1,0 +1,239 @@
+2023-03-05 21:32:09,512  :: INFO       :: client_log_config    -- Информация!
+2023-03-05 21:32:09,512  :: DEBUG      :: client_log_config    -- Отладочная информация!
+2023-03-05 21:32:09,512  :: WARNING    :: client_log_config    -- Внимание!
+2023-03-05 21:32:09,512  :: ERROR      :: client_log_config    -- Ошибка!
+2023-03-05 21:32:09,512  :: CRITICAL   :: client_log_config    -- Критическая ошибка!
+2023-03-05 21:46:33,224  :: INFO       :: client               -- Установлены параметры по умолчанию: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-05 21:46:33,224  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-05 21:46:33,225  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя User
+2023-03-05 21:46:33,225  :: DEBUG      :: client               -- Разбор сообщения от сервера: {'response': 200}
+2023-03-05 21:46:33,225  :: INFO       :: client               -- Принят ответ сервера: 200: OK
+2023-03-05 21:46:58,188  :: INFO       :: client               -- Установлены параметры по умолчанию: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-05 21:46:58,188  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-05 21:46:58,189  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'User'
+2023-03-05 21:46:58,190  :: DEBUG      :: client               -- Разбор сообщения от сервера: {'response': 200}
+2023-03-05 21:46:58,190  :: INFO       :: client               -- Принят ответ сервера: 200: OK
+2023-03-06 18:22:26,171  :: INFO       :: client               -- Установлены параметры по умолчанию: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-06 18:22:26,171  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-06 18:22:27,172  :: CRITICAL   :: client               -- Подключение к серверу '127.0.0.1:7777' не установлено,т.к. конечный компьютер отверг запрос на подключение.
+2023-03-06 18:22:37,108  :: INFO       :: client               -- Установлены параметры по умолчанию: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-06 18:22:37,108  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-06 18:22:37,109  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'User'
+2023-03-06 18:22:37,110  :: DEBUG      :: client               -- Разбор сообщения от сервера: {'response': 200}
+2023-03-06 18:22:37,110  :: INFO       :: client               -- Принят ответ сервера: '200: OK'
+2023-03-10 17:42:13,986  :: INFO       :: client               -- Установлены параметры по умолчанию: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-10 17:42:13,986  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-10 17:42:13,986  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'User'
+2023-03-10 17:42:14,001  :: DEBUG      :: client               -- Разбор сообщения от сервера: {'response': 200}
+2023-03-10 17:42:14,001  :: INFO       :: client               -- Принят ответ сервера: '200: OK'
+2023-03-11 17:56:25,430  :: INFO       :: client               -- Установлены параметры по умолчанию: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-11 17:56:25,430  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-11 17:56:25,431  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'User'
+2023-03-11 17:56:25,442  :: DEBUG      :: client               -- Разбор сообщения от сервера: {'response': 200}
+2023-03-11 17:56:25,442  :: INFO       :: client               -- Принят ответ сервера: '200: OK'
+2023-03-11 18:19:53,408  :: INFO       :: client               -- Установлены параметры по умолчанию: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-11 18:19:53,408  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-11 18:19:53,409  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'User'
+2023-03-11 18:19:53,427  :: DEBUG      :: client               -- Разбор сообщения от сервера: {'response': 200}
+2023-03-11 18:19:53,428  :: INFO       :: client               -- Принят ответ сервера: '200: OK'
+2023-03-11 19:05:14,513  :: INFO       :: client               -- Установлены параметры по умолчанию: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-11 19:05:14,513  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-11 19:05:14,513  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'User'
+2023-03-11 19:05:14,529  :: DEBUG      :: decorators           -- Обращение к функции create_presence с параметрами: ((), {}). Вызов из функции main.
+2023-03-11 19:05:14,529  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=260, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13710), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1678550714.5133867, 'user': {'account_name': 'User'}}), {}). Вызов из функции main.
+2023-03-11 19:05:14,544  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=260, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13710), raddr=('127.0.0.1', 7777)>,), {}). Вызов из функции main.
+2023-03-11 19:05:14,544  :: DEBUG      :: client               -- Разбор сообщения от сервера: {'response': 200}
+2023-03-11 19:05:14,544  :: DEBUG      :: decorators           -- Обращение к функции parse_server_response с параметрами: (({'response': 200},), {}). Вызов из функции main.
+2023-03-11 19:05:14,544  :: INFO       :: client               -- Принят ответ сервера: '200: OK'
+2023-03-12 20:36:26,757  :: INFO       :: client               -- Установлены параметры по умолчанию: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-12 20:36:26,757  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-12 20:36:26,771  :: INFO       :: client               -- Установлены параметры по умолчанию: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-12 20:36:26,771  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-12 20:36:26,772  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'User'
+2023-03-12 20:36:26,779  :: INFO       :: client               -- Установлены параметры по умолчанию: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-12 20:36:26,779  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-12 20:36:26,779  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'User'
+2023-03-12 20:36:26,781  :: INFO       :: client               -- Установлены параметры по умолчанию: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-12 20:36:26,781  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт: 7777.
+2023-03-12 20:36:26,782  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'User'
+2023-03-12 20:36:26,786  :: DEBUG      :: decorators           -- Обращение к функции create_presence с параметрами: ((), {}). Вызов из функции main.
+2023-03-12 20:36:26,786  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=216, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14424), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1678642586.7725804, 'user': {'account_name': 'User'}}), {}). Вызов из функции main.
+2023-03-12 20:36:26,791  :: DEBUG      :: decorators           -- Обращение к функции create_presence с параметрами: ((), {}). Вызов из функции main.
+2023-03-12 20:36:26,791  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14425), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1678642586.7795992, 'user': {'account_name': 'User'}}), {}). Вызов из функции main.
+2023-03-12 20:36:26,792  :: DEBUG      :: decorators           -- Обращение к функции create_presence с параметрами: ((), {}). Вызов из функции main.
+2023-03-12 20:36:26,793  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14426), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1678642586.782607, 'user': {'account_name': 'User'}}), {}). Вызов из функции main.
+2023-03-12 20:36:27,195  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=216, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14424), raddr=('127.0.0.1', 7777)>,), {}). Вызов из функции main.
+2023-03-12 20:36:27,196  :: DEBUG      :: client               -- Разбор сообщения от сервера: {'response': 200}
+2023-03-12 20:36:27,196  :: DEBUG      :: decorators           -- Обращение к функции parse_server_response с параметрами: (({'response': 200},), {}). Вызов из функции main.
+2023-03-12 20:36:27,196  :: INFO       :: client               -- Принят ответ сервера: '200: OK'
+2023-03-12 20:36:27,197  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14425), raddr=('127.0.0.1', 7777)>,), {}). Вызов из функции main.
+2023-03-12 20:36:27,197  :: DEBUG      :: client               -- Разбор сообщения от сервера: {'response': 200}
+2023-03-12 20:36:27,197  :: DEBUG      :: decorators           -- Обращение к функции parse_server_response с параметрами: (({'response': 200},), {}). Вызов из функции main.
+2023-03-12 20:36:27,197  :: INFO       :: client               -- Принят ответ сервера: '200: OK'
+2023-03-12 20:36:27,198  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14426), raddr=('127.0.0.1', 7777)>,), {}). Вызов из функции main.
+2023-03-12 20:36:27,198  :: DEBUG      :: client               -- Разбор сообщения от сервера: {'response': 200}
+2023-03-12 20:36:27,198  :: DEBUG      :: decorators           -- Обращение к функции parse_server_response с параметрами: (({'response': 200},), {}). Вызов из функции main.
+2023-03-12 20:36:27,198  :: INFO       :: client               -- Принят ответ сервера: '200: OK'
+2023-03-12 20:36:27,260  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'User'
+2023-03-12 20:36:27,274  :: DEBUG      :: decorators           -- Обращение к функции create_presence с параметрами: ((), {}). Вызов из функции main.
+2023-03-12 20:36:27,274  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14423), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1678642587.2608793, 'user': {'account_name': 'User'}}), {}). Вызов из функции main.
+2023-03-12 20:36:27,662  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14423), raddr=('127.0.0.1', 7777)>,), {}). Вызов из функции main.
+2023-03-12 20:36:27,662  :: DEBUG      :: client               -- Разбор сообщения от сервера: {'response': 200}
+2023-03-12 20:36:27,662  :: DEBUG      :: decorators           -- Обращение к функции parse_server_response с параметрами: (({'response': 200},), {}). Вызов из функции main.
+2023-03-12 20:36:27,662  :: INFO       :: client               -- Принят ответ сервера: '200: OK'
+2023-03-12 20:36:37,342  :: DEBUG      :: client               -- Создано message-сообщение для пользователя 'User'
+2023-03-12 20:36:37,342  :: DEBUG      :: decorators           -- Обращение к функции create_message с параметрами: (('Привет от первого!',), {}). Вызов из функции main.
+2023-03-12 20:36:37,343  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14423), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1678642597.3426688, 'user': {'account_name': 'User'}, 'message_text': 'Привет от первого!'}), {}). Вызов из функции main.
+2023-03-12 20:36:40,599  :: INFO       :: client               -- Соединение завершено пользователем.
+2023-03-12 20:36:56,639  :: DEBUG      :: client               -- Создано message-сообщение для пользователя 'User'
+2023-03-12 20:36:56,639  :: DEBUG      :: decorators           -- Обращение к функции create_message с параметрами: (('Привет от второго!',), {}). Вызов из функции main.
+2023-03-12 20:36:56,640  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14426), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1678642616.639194, 'user': {'account_name': 'User'}, 'message_text': 'Привет от второго!'}), {}). Вызов из функции main.
+2023-03-12 20:37:03,623  :: INFO       :: client               -- Соединение завершено пользователем.
+2023-03-12 20:37:07,543  :: DEBUG      :: client               -- Создано message-сообщение для пользователя 'User'
+2023-03-12 20:37:07,543  :: DEBUG      :: decorators           -- Обращение к функции create_message с параметрами: (('Привет',), {}). Вызов из функции main.
+2023-03-12 20:37:07,543  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14425), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1678642627.5430675, 'user': {'account_name': 'User'}, 'message_text': 'Привет'}), {}). Вызов из функции main.
+2023-03-12 20:37:12,702  :: DEBUG      :: client               -- Создано message-сообщение для пользователя 'User'
+2023-03-12 20:37:12,703  :: DEBUG      :: decorators           -- Обращение к функции create_message с параметрами: (('от третьего!',), {}). Вызов из функции main.
+2023-03-12 20:37:12,703  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14425), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1678642632.7025983, 'user': {'account_name': 'User'}, 'message_text': 'от третьего!'}), {}). Вызов из функции main.
+2023-03-12 20:37:15,038  :: INFO       :: client               -- Соединение завершено пользователем.
+2023-03-12 20:37:36,342  :: DEBUG      :: client               -- Создано message-сообщение для пользователя 'User'
+2023-03-12 20:37:36,342  :: DEBUG      :: decorators           -- Обращение к функции create_message с параметрами: (('Я не сам закроюсь.',), {}). Вызов из функции main.
+2023-03-12 20:37:36,343  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=216, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14424), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1678642656.342945, 'user': {'account_name': 'User'}, 'message_text': 'Я не сам закроюсь.'}), {}). Вызов из функции main.
+2023-03-19 20:31:43,787  :: DEBUG      :: decorators           -- Обращение к функции parse_cli_args с параметрами: ((), {}). Вызов из функции main.
+2023-03-19 20:31:43,788  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт сервера: 7777, имя клиента: tester4.
+2023-03-19 20:31:43,788  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'tester4'.
+2023-03-19 20:31:43,789  :: DEBUG      :: decorators           -- Обращение к функции create_presence с параметрами: (('tester4',), {}). Вызов из функции main.
+2023-03-19 20:31:43,789  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=224, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13838), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1679247103.7882295, 'user': {'account_name': 'tester4'}}), {}). Вызов из функции main.
+2023-03-19 20:31:43,803  :: DEBUG      :: decorators           -- Обращение к функции parse_cli_args с параметрами: ((), {}). Вызов из функции main.
+2023-03-19 20:31:43,803  :: DEBUG      :: decorators           -- Обращение к функции parse_cli_args с параметрами: ((), {}). Вызов из функции main.
+2023-03-19 20:31:43,804  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт сервера: 7777, имя клиента: tester1.
+2023-03-19 20:31:43,805  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'tester1'.
+2023-03-19 20:31:43,805  :: DEBUG      :: decorators           -- Обращение к функции create_presence с параметрами: (('tester1',), {}). Вызов из функции main.
+2023-03-19 20:31:43,806  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13840), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1679247103.805275, 'user': {'account_name': 'tester1'}}), {}). Вызов из функции main.
+2023-03-19 20:31:43,806  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=204, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13839), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1679247103.805275, 'user': {'account_name': 'tester3'}}), {}). Вызов из функции main.
+2023-03-19 20:31:43,806  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=224, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13838), raddr=('127.0.0.1', 7777)>,), {}). Вызов из функции main.
+2023-03-19 20:31:43,806  :: DEBUG      :: client               -- Разбор ответа от сервера: {'response': 200}.
+2023-03-19 20:31:43,807  :: DEBUG      :: decorators           -- Обращение к функции process_server_response с параметрами: (({'response': 200},), {}). Вызов из функции main.
+2023-03-19 20:31:43,807  :: INFO       :: client               -- Принят ответ сервера: '200: OK'.
+2023-03-19 20:31:43,807  :: DEBUG      :: client               -- Старт потоков.
+2023-03-19 20:31:43,808  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=204, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13839), raddr=('127.0.0.1', 7777)>,), {}). Вызов из функции main.
+2023-03-19 20:31:43,808  :: DEBUG      :: client               -- Разбор ответа от сервера: {'response': 200}.
+2023-03-19 20:31:43,808  :: DEBUG      :: decorators           -- Обращение к функции process_server_response с параметрами: (({'response': 200},), {}). Вызов из функции main.
+2023-03-19 20:31:43,808  :: INFO       :: client               -- Принят ответ сервера: '200: OK'.
+2023-03-19 20:31:43,809  :: DEBUG      :: decorators           -- Обращение к функции parse_cli_args с параметрами: ((), {}). Вызов из функции main.
+2023-03-19 20:31:43,809  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт сервера: 7777, имя клиента: tester2.
+2023-03-19 20:31:43,809  :: DEBUG      :: client               -- Старт потоков.
+2023-03-19 20:31:43,809  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'tester2'.
+2023-03-19 20:31:43,810  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13840), raddr=('127.0.0.1', 7777)>,), {}). Вызов из функции main.
+2023-03-19 20:31:43,810  :: DEBUG      :: client               -- Разбор ответа от сервера: {'response': 200}.
+2023-03-19 20:31:43,810  :: DEBUG      :: decorators           -- Обращение к функции create_presence с параметрами: (('tester2',), {}). Вызов из функции main.
+2023-03-19 20:31:43,810  :: DEBUG      :: decorators           -- Обращение к функции process_server_response с параметрами: (({'response': 200},), {}). Вызов из функции main.
+2023-03-19 20:31:43,810  :: INFO       :: client               -- Принят ответ сервера: '200: OK'.
+2023-03-19 20:31:43,810  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=200, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13841), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1679247103.8092854, 'user': {'account_name': 'tester2'}}), {}). Вызов из функции main.
+2023-03-19 20:31:43,811  :: DEBUG      :: client               -- Старт потоков.
+2023-03-19 20:31:43,811  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=200, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13841), raddr=('127.0.0.1', 7777)>,), {}). Вызов из функции main.
+2023-03-19 20:31:43,811  :: DEBUG      :: client               -- Разбор ответа от сервера: {'response': 200}.
+2023-03-19 20:31:43,811  :: DEBUG      :: decorators           -- Обращение к функции process_server_response с параметрами: (({'response': 200},), {}). Вызов из функции main.
+2023-03-19 20:31:43,812  :: INFO       :: client               -- Принят ответ сервера: '200: OK'.
+2023-03-19 20:31:43,812  :: DEBUG      :: client               -- Старт потоков.
+2023-03-19 20:31:59,317  :: DEBUG      :: client               -- Создано сообщение: {'action': 'message', 'sender': 'tester2', 'recipient': 'tester1', 'time': 1679247119.317247, 'message_text': 'hi 1'}.
+2023-03-19 20:31:59,318  :: DEBUG      :: decorators           -- Обращение к функции create_message с параметрами: (('tester2',), {}). Вызов из функции interactive_command_line.
+2023-03-19 20:31:59,318  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=200, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13841), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'sender': 'tester2', 'recipient': 'tester1', 'time': 1679247119.317247, 'message_text': 'hi 1'}), {}). Вызов из функции interactive_command_line.
+2023-03-19 20:31:59,425  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13840), raddr=('127.0.0.1', 7777)>,), {}). Вызов из функции process_message.
+2023-03-19 20:31:59,425  :: INFO       :: client               -- Получено сообщение от пользователя 'tester2': 'hi 1'.
+2023-03-19 20:32:23,819  :: DEBUG      :: decorators           -- Обращение к функции parse_cli_args с параметрами: ((), {}). Вызов из функции main.
+2023-03-19 20:32:23,820  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт сервера: 7777, имя клиента: tester2.
+2023-03-19 20:32:23,823  :: DEBUG      :: decorators           -- Обращение к функции parse_cli_args с параметрами: ((), {}). Вызов из функции main.
+2023-03-19 20:32:23,823  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт сервера: 7777, имя клиента: tester4.
+2023-03-19 20:32:23,838  :: DEBUG      :: decorators           -- Обращение к функции parse_cli_args с параметрами: ((), {}). Вызов из функции main.
+2023-03-19 20:32:23,839  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт сервера: 7777, имя клиента: tester3.
+2023-03-19 20:32:23,847  :: DEBUG      :: decorators           -- Обращение к функции parse_cli_args с параметрами: ((), {}). Вызов из функции main.
+2023-03-19 20:32:23,847  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт сервера: 7777, имя клиента: tester1.
+2023-03-19 20:32:23,848  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'tester1'.
+2023-03-19 20:32:23,848  :: DEBUG      :: decorators           -- Обращение к функции create_presence с параметрами: (('tester1',), {}). Вызов из функции main.
+2023-03-19 20:32:23,849  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13940), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1679247143.8481576, 'user': {'account_name': 'tester1'}}), {}). Вызов из функции main.
+2023-03-19 20:32:24,261  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13940), raddr=('127.0.0.1', 7777)>,), {}). Вызов из функции main.
+2023-03-19 20:32:24,261  :: DEBUG      :: client               -- Разбор ответа от сервера: {'response': 200}.
+2023-03-19 20:32:24,262  :: DEBUG      :: decorators           -- Обращение к функции process_server_response с параметрами: (({'response': 200},), {}). Вызов из функции main.
+2023-03-19 20:32:24,262  :: INFO       :: client               -- Принят ответ сервера: '200: OK'.
+2023-03-19 20:32:24,263  :: DEBUG      :: client               -- Старт потоков.
+2023-03-19 20:32:24,321  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'tester4'.
+2023-03-19 20:32:24,321  :: DEBUG      :: decorators           -- Обращение к функции create_presence с параметрами: (('tester4',), {}). Вызов из функции main.
+2023-03-19 20:32:24,322  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13937), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1679247144.3212826, 'user': {'account_name': 'tester2'}}), {}). Вызов из функции main.
+2023-03-19 20:32:24,323  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13938), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1679247144.3212826, 'user': {'account_name': 'tester4'}}), {}). Вызов из функции main.
+2023-03-19 20:32:24,342  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'tester3'.
+2023-03-19 20:32:24,344  :: DEBUG      :: decorators           -- Обращение к функции create_presence с параметрами: (('tester3',), {}). Вызов из функции main.
+2023-03-19 20:32:24,345  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13939), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1679247144.3423383, 'user': {'account_name': 'tester3'}}), {}). Вызов из функции main.
+2023-03-19 20:32:24,345  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13937), raddr=('127.0.0.1', 7777)>,), {}). Вызов из функции main.
+2023-03-19 20:32:24,346  :: DEBUG      :: client               -- Разбор ответа от сервера: {'response': 200}.
+2023-03-19 20:32:24,346  :: DEBUG      :: decorators           -- Обращение к функции process_server_response с параметрами: (({'response': 200},), {}). Вызов из функции main.
+2023-03-19 20:32:24,346  :: INFO       :: client               -- Принят ответ сервера: '200: OK'.
+2023-03-19 20:32:24,347  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13938), raddr=('127.0.0.1', 7777)>,), {}). Вызов из функции main.
+2023-03-19 20:32:24,347  :: DEBUG      :: client               -- Разбор ответа от сервера: {'response': 200}.
+2023-03-19 20:32:24,347  :: DEBUG      :: decorators           -- Обращение к функции process_server_response с параметрами: (({'response': 200},), {}). Вызов из функции main.
+2023-03-19 20:32:24,348  :: INFO       :: client               -- Принят ответ сервера: '200: OK'.
+2023-03-19 20:32:24,354  :: DEBUG      :: client               -- Старт потоков.
+2023-03-19 20:32:24,355  :: DEBUG      :: client               -- Старт потоков.
+2023-03-19 20:32:24,748  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13939), raddr=('127.0.0.1', 7777)>,), {}). Вызов из функции main.
+2023-03-19 20:32:24,748  :: DEBUG      :: client               -- Разбор ответа от сервера: {'response': 200}.
+2023-03-19 20:32:24,748  :: DEBUG      :: decorators           -- Обращение к функции process_server_response с параметрами: (({'response': 200},), {}). Вызов из функции main.
+2023-03-19 20:32:24,748  :: INFO       :: client               -- Принят ответ сервера: '200: OK'.
+2023-03-19 20:32:24,750  :: DEBUG      :: client               -- Старт потоков.
+2023-03-19 20:32:34,925  :: DEBUG      :: client               -- Создано сообщение: {'action': 'message', 'sender': 'tester3', 'recipient': 'tester2', 'time': 1679247154.9250274, 'message_text': 'hi 2'}.
+2023-03-19 20:32:34,926  :: DEBUG      :: decorators           -- Обращение к функции create_message с параметрами: (('tester3',), {}). Вызов из функции interactive_command_line.
+2023-03-19 20:32:34,927  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13939), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'sender': 'tester3', 'recipient': 'tester2', 'time': 1679247154.9250274, 'message_text': 'hi 2'}), {}). Вызов из функции interactive_command_line.
+2023-03-19 20:32:35,160  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 13937), raddr=('127.0.0.1', 7777)>,), {}). Вызов из функции process_message.
+2023-03-19 20:32:35,160  :: INFO       :: client               -- Получено сообщение от пользователя 'tester3': 'hi 2'.
+2023-03-19 20:39:58,868  :: DEBUG      :: decorators           -- Обращение к функции parse_cli_args с параметрами: ((), {}). Вызов из функции main.
+2023-03-19 20:39:58,868  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт сервера: 7777, имя клиента: tester3.
+2023-03-19 20:39:58,880  :: DEBUG      :: decorators           -- Обращение к функции parse_cli_args с параметрами: ((), {}). Вызов из функции main.
+2023-03-19 20:39:58,882  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт сервера: 7777, имя клиента: tester2.
+2023-03-19 20:39:58,902  :: DEBUG      :: decorators           -- Обращение к функции parse_cli_args с параметрами: ((), {}). Вызов из функции main.
+2023-03-19 20:39:58,903  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт сервера: 7777, имя клиента: tester1.
+2023-03-19 20:39:58,903  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'tester1'.
+2023-03-19 20:39:58,904  :: DEBUG      :: decorators           -- Обращение к функции create_presence с параметрами: (('tester1',), {}). Вызов из функции main.
+2023-03-19 20:39:58,904  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=248, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14675), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1679247598.9035113, 'user': {'account_name': 'tester1'}}), {}). Вызов из функции main.
+2023-03-19 20:39:58,913  :: DEBUG      :: decorators           -- Обращение к функции parse_cli_args с параметрами: ((), {}). Вызов из функции main.
+2023-03-19 20:39:58,914  :: INFO       :: client               -- Запуск клиента с параметрами: адрес сервера: 127.0.0.1, порт сервера: 7777, имя клиента: tester4.
+2023-03-19 20:39:58,914  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'tester4'.
+2023-03-19 20:39:58,915  :: DEBUG      :: decorators           -- Обращение к функции create_presence с параметрами: (('tester4',), {}). Вызов из функции main.
+2023-03-19 20:39:58,915  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14676), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1679247598.9145412, 'user': {'account_name': 'tester4'}}), {}). Вызов из функции main.
+2023-03-19 20:39:58,916  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=248, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14675), raddr=('127.0.0.1', 7777)>,), {}). Вызов из функции main.
+2023-03-19 20:39:58,916  :: DEBUG      :: client               -- Разбор ответа от сервера: {'response': 200}.
+2023-03-19 20:39:58,916  :: DEBUG      :: decorators           -- Обращение к функции process_server_response с параметрами: (({'response': 200},), {}). Вызов из функции main.
+2023-03-19 20:39:58,916  :: INFO       :: client               -- Принят ответ сервера: '200: OK'.
+2023-03-19 20:39:58,918  :: DEBUG      :: client               -- Старт потоков.
+2023-03-19 20:39:59,326  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14676), raddr=('127.0.0.1', 7777)>,), {}). Вызов из функции main.
+2023-03-19 20:39:59,326  :: DEBUG      :: client               -- Разбор ответа от сервера: {'response': 200}.
+2023-03-19 20:39:59,326  :: DEBUG      :: decorators           -- Обращение к функции process_server_response с параметрами: (({'response': 200},), {}). Вызов из функции main.
+2023-03-19 20:39:59,326  :: INFO       :: client               -- Принят ответ сервера: '200: OK'.
+2023-03-19 20:39:59,340  :: DEBUG      :: client               -- Старт потоков.
+2023-03-19 20:39:59,374  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'tester3'.
+2023-03-19 20:39:59,374  :: DEBUG      :: decorators           -- Обращение к функции create_presence с параметрами: (('tester3',), {}). Вызов из функции main.
+2023-03-19 20:39:59,375  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14673), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1679247599.374911, 'user': {'account_name': 'tester3'}}), {}). Вызов из функции main.
+2023-03-19 20:39:59,383  :: DEBUG      :: client               -- Создано presence-сообщение для пользователя 'tester2'.
+2023-03-19 20:39:59,383  :: DEBUG      :: decorators           -- Обращение к функции create_presence с параметрами: (('tester2',), {}). Вызов из функции main.
+2023-03-19 20:39:59,384  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14674), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1679247599.383935, 'user': {'account_name': 'tester2'}}), {}). Вызов из функции main.
+2023-03-19 20:39:59,384  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14673), raddr=('127.0.0.1', 7777)>,), {}). Вызов из функции main.
+2023-03-19 20:39:59,384  :: DEBUG      :: client               -- Разбор ответа от сервера: {'response': 200}.
+2023-03-19 20:39:59,385  :: DEBUG      :: decorators           -- Обращение к функции process_server_response с параметрами: (({'response': 200},), {}). Вызов из функции main.
+2023-03-19 20:39:59,385  :: INFO       :: client               -- Принят ответ сервера: '200: OK'.
+2023-03-19 20:39:59,386  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14674), raddr=('127.0.0.1', 7777)>,), {}). Вызов из функции main.
+2023-03-19 20:39:59,387  :: DEBUG      :: client               -- Разбор ответа от сервера: {'response': 200}.
+2023-03-19 20:39:59,387  :: DEBUG      :: decorators           -- Обращение к функции process_server_response с параметрами: (({'response': 200},), {}). Вызов из функции main.
+2023-03-19 20:39:59,387  :: INFO       :: client               -- Принят ответ сервера: '200: OK'.
+2023-03-19 20:39:59,389  :: DEBUG      :: client               -- Старт потоков.
+2023-03-19 20:39:59,402  :: DEBUG      :: client               -- Старт потоков.
+2023-03-19 20:40:09,742  :: DEBUG      :: decorators           -- Обращение к функции create_exit с параметрами: (('tester4',), {}). Вызов из функции interactive_command_line.
+2023-03-19 20:40:09,742  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14676), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1679247609.741342, 'account_name': 'tester4'}), {}). Вызов из функции interactive_command_line.
+2023-03-19 20:40:09,742  :: INFO       :: client               -- Соединение завершено пользователем.
+2023-03-19 20:40:09,742  :: CRITICAL   :: client               -- Соединение с сервером разорвано.
+2023-03-19 20:40:09,743  :: DEBUG      :: decorators           -- Обращение к функции process_message с параметрами: ((<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, 'tester4'), {}). Вызов из функции run.
+2023-03-19 20:40:21,420  :: DEBUG      :: client               -- Создано сообщение: {'action': 'message', 'sender': 'tester3', 'recipient': 'tester4', 'time': 1679247621.4207127, 'message_text': 'hi 4'}.
+2023-03-19 20:40:21,421  :: DEBUG      :: decorators           -- Обращение к функции create_message с параметрами: (('tester3',), {}). Вызов из функции interactive_command_line.
+2023-03-19 20:40:21,422  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14673), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'sender': 'tester3', 'recipient': 'tester4', 'time': 1679247621.4207127, 'message_text': 'hi 4'}), {}). Вызов из функции interactive_command_line.
+2023-03-19 20:40:21,448  :: CRITICAL   :: client               -- Соединение с сервером разорвано.
+2023-03-19 20:40:21,448  :: CRITICAL   :: client               -- Соединение с сервером разорвано.
+2023-03-19 20:40:21,449  :: DEBUG      :: decorators           -- Обращение к функции process_message с параметрами: ((<socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14673), raddr=('127.0.0.1', 7777)>, 'tester3'), {}). Вызов из функции run.
+2023-03-19 20:40:21,449  :: DEBUG      :: decorators           -- Обращение к функции process_message с параметрами: ((<socket.socket fd=248, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14675), raddr=('127.0.0.1', 7777)>, 'tester1'), {}). Вызов из функции run.
+2023-03-19 20:40:21,449  :: DEBUG      :: decorators           -- Обращение к функции process_message с параметрами: ((<socket.socket fd=352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 14674), raddr=('127.0.0.1', 7777)>, 'tester2'), {}). Вызов из функции run.
