@@ -122,7 +122,7 @@ gen
 ### Node template
 # Logs
 #logs
-#*.log
+#*.logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -327,7 +327,7 @@ cover/
 *.pot
 
 # Django stuff:
-#*.log
+#*.logs
 local_settings.py
 #db.sqlite3
 db.sqlite3-journal
