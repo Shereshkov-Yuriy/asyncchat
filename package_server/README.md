@@ -8,10 +8,3 @@
 ```
 pip install sher_server_chat
 ```
-
-### Приложение клиента
-
-Пакет можно установить командой:
-```
-pip install sher_client_chat
-```

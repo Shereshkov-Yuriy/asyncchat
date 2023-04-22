@@ -204,7 +204,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+#dist
 
 # Gatsby files
 .cache/
@@ -279,22 +279,22 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
+# build/
 develop-eggs/
-dist/
+# dist/
 downloads/
-eggs/
-.eggs/
+#eggs/
+#.eggs/
 lib/
 lib64/
 parts/
-sdist/
+#sdist/
 var/
 wheels/
 share/python-wheels/
-*.egg-info/
+# *.egg-info/
 .installed.cfg
-*.egg
+# *.egg
 MANIFEST
 
 # PyInstaller
@@ -340,7 +340,7 @@ instance/
 .scrapy
 
 # Sphinx documentation
-docs/_build/
+# docs/_build/
 
 # PyBuilder
 .pybuilder/
