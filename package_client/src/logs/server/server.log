@@ -1,0 +1,55 @@
+2023-04-20 13:01:55,850  :: DEBUG      :: server               -- Start Server App.
+2023-04-20 13:01:55,851  :: DEBUG      :: server               -- Инициализация парсера аргументов коммандной строки: ['server.py']
+2023-04-20 13:01:55,853  :: DEBUG      :: server               -- Аргументы успешно загружены.
+2023-04-20 13:01:55,900  :: DEBUG      :: decorators           -- Обращение к функции parse_cli_args с параметрами: ((), {}). Вызов из функции main.
+2023-04-20 13:01:55,997  :: INFO       :: core                 -- Запуск сервера по адресу: , порт: 7777.
+2023-04-20 13:01:56,552  :: INFO       :: core                 -- Установлено соединение с клиентом: ('127.0.0.1', 12339)
+2023-04-20 13:01:56,571  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 12339)>,), {}). Вызов из функции run.
+2023-04-20 13:01:56,571  :: DEBUG      :: core                 -- Разбор сообщения от клиента: {'action': 'presence', 'time': 1681984916.4930067, 'user': {'account_name': 'tester2'}}
+2023-04-20 13:01:56,571  :: DEBUG      :: core                 -- Аутентификация для {'account_name': 'tester2'}
+2023-04-20 13:01:56,576  :: DEBUG      :: core                 -- Имя принято. Проверка пароля.
+2023-04-20 13:01:56,579  :: DEBUG      :: core                 -- Auth message = {'response': 511, 'bin': '943a86d1fd1f3b1ca0ebb59bcefda4aabe7c7a211922024338add6a6def0cc2dafad20baa458a5d9e4bb3315f096a661c4e04c2a85424b416d0c7abb0ef7dedd'}
+2023-04-20 13:01:56,579  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 12339)>, {'response': 511, 'bin': '943a86d1fd1f3b1ca0ebb59bcefda4aabe7c7a211922024338add6a6def0cc2dafad20baa458a5d9e4bb3315f096a661c4e04c2a85424b416d0c7abb0ef7dedd'}), {}). Вызов из функции auth_user.
+2023-04-20 13:01:56,580  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 12339)>,), {}). Вызов из функции auth_user.
+2023-04-20 13:01:56,581  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 12339)>, {'response': 200}), {}). Вызов из функции auth_user.
+2023-04-20 13:01:56,589  :: INFO       :: core                 -- Установлено соединение с клиентом: ('127.0.0.1', 12340)
+2023-04-20 13:01:56,590  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 12339)>,), {}). Вызов из функции run.
+2023-04-20 13:01:56,590  :: DEBUG      :: core                 -- Разбор сообщения от клиента: {'action': 'users_request', 'time': 1681984916.581393, 'account_name': 'tester2'}
+2023-04-20 13:01:56,591  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 12339)>, {'response': 202, 'data_available': ['Jeeves', 'Wooster', 'tester1', 'tester2']}), {}). Вызов из функции process_client_message.
+2023-04-20 13:01:56,592  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=832, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 12340)>,), {}). Вызов из функции run.
+2023-04-20 13:01:56,592  :: DEBUG      :: core                 -- Разбор сообщения от клиента: {'action': 'presence', 'time': 1681984916.4960139, 'user': {'account_name': 'tester1'}}
+2023-04-20 13:01:56,592  :: DEBUG      :: core                 -- Аутентификация для {'account_name': 'tester1'}
+2023-04-20 13:01:56,593  :: DEBUG      :: core                 -- Имя принято. Проверка пароля.
+2023-04-20 13:01:56,594  :: DEBUG      :: core                 -- Auth message = {'response': 511, 'bin': '2d73b46116eeb3dc038929623b708e6ea769f74f8793af7bff0ba1a88551925d63e331301c0153b4e492cffbcc862d68e21a97cb1ae73a4a70e81b4ebe55dbf0'}
+2023-04-20 13:01:56,595  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=832, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 12340)>, {'response': 511, 'bin': '2d73b46116eeb3dc038929623b708e6ea769f74f8793af7bff0ba1a88551925d63e331301c0153b4e492cffbcc862d68e21a97cb1ae73a4a70e81b4ebe55dbf0'}), {}). Вызов из функции auth_user.
+2023-04-20 13:01:56,596  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=832, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 12340)>,), {}). Вызов из функции auth_user.
+2023-04-20 13:01:56,597  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=832, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 12340)>, {'response': 200}), {}). Вызов из функции auth_user.
+2023-04-20 13:01:57,011  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 12339)>,), {}). Вызов из функции run.
+2023-04-20 13:01:57,011  :: DEBUG      :: core                 -- Разбор сообщения от клиента: {'action': 'get_contacts', 'time': 1681984916.6087813, 'user': 'tester2'}
+2023-04-20 13:01:57,015  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 12339)>, {'response': 202, 'data_available': ['tester1']}), {}). Вызов из функции process_client_message.
+2023-04-20 13:01:57,016  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=832, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 12340)>,), {}). Вызов из функции run.
+2023-04-20 13:01:57,016  :: DEBUG      :: core                 -- Разбор сообщения от клиента: {'action': 'users_request', 'time': 1681984916.6077785, 'account_name': 'tester1'}
+2023-04-20 13:01:57,018  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=832, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 12340)>, {'response': 202, 'data_available': ['Jeeves', 'Wooster', 'tester1', 'tester2']}), {}). Вызов из функции process_client_message.
+2023-04-20 13:01:57,419  :: DEBUG      :: decorators           -- Обращение к функции get_message с параметрами: ((<socket.socket fd=832, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 12340)>,), {}). Вызов из функции run.
+2023-04-20 13:01:57,419  :: DEBUG      :: core                 -- Разбор сообщения от клиента: {'action': 'get_contacts', 'time': 1681984917.0248737, 'user': 'tester1'}
+2023-04-20 13:01:57,421  :: DEBUG      :: decorators           -- Обращение к функции send_message с параметрами: ((<socket.socket fd=832, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 12340)>, {'response': 202, 'data_available': ['tester2']}), {}). Вызов из функции process_client_message.
+2023-04-20 13:02:04,628  :: DEBUG      :: core                 -- Возникло исключение клиента.
+Traceback (most recent call last):
+  File "R:\Mainframe\Faculty\Python\asyncchat\server\core.py", line 69, in run
+    msg = get_message(client)
+  File "R:\Mainframe\Faculty\Python\asyncchat\common\decorators.py", line 26, in _wrapper
+    result = func(*args, **kwargs)
+  File "R:\Mainframe\Faculty\Python\asyncchat\common\utils.py", line 31, in get_message
+    received_package = client.recv(MAX_PACKAGE_LENGTH)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2023-04-20 13:02:04,628  :: INFO       :: core                 -- Отключение клиента: '('127.0.0.1', 12340)'.
+2023-04-20 13:02:07,433  :: DEBUG      :: core                 -- Возникло исключение клиента.
+Traceback (most recent call last):
+  File "R:\Mainframe\Faculty\Python\asyncchat\server\core.py", line 69, in run
+    msg = get_message(client)
+  File "R:\Mainframe\Faculty\Python\asyncchat\common\decorators.py", line 26, in _wrapper
+    result = func(*args, **kwargs)
+  File "R:\Mainframe\Faculty\Python\asyncchat\common\utils.py", line 31, in get_message
+    received_package = client.recv(MAX_PACKAGE_LENGTH)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2023-04-20 13:02:07,433  :: INFO       :: core                 -- Отключение клиента: '('127.0.0.1', 12339)'.

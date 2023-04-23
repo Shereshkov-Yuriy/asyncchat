@@ -1,0 +1,5 @@
+2023-04-15 22:17:57,634  :: INFO       :: server_log_config    -- Информация!
+2023-04-15 22:17:57,634  :: DEBUG      :: server_log_config    -- Отладочная информация!
+2023-04-15 22:17:57,634  :: WARNING    :: server_log_config    -- Внимание!
+2023-04-15 22:17:57,634  :: ERROR      :: server_log_config    -- Ошибка!
+2023-04-15 22:17:57,634  :: CRITICAL   :: server_log_config    -- Критическая ошибка!
